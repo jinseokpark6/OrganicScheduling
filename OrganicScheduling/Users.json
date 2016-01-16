@@ -1,0 +1,150 @@
+{
+"directors":[
+                {
+                    "id": 0,
+                    "name":"Alfred Hitchcock",
+                    "birth": {
+                        "year": 1899,"month": 8,"day": 13
+                        },
+                    "top_three_films":[
+                        {"title": "Rear Window", "year": 1954, "main_cast": ["James Stewart", "Grace Kelly"], "notes": "Voyeurism"},
+                        {"title": "Psycho", "year": 1960, "main_cast": ["Anthony Perkins", "Janet Leigh"], "notes": "Shower Scene"},
+                        {"title": "Vertigo", "year": 1958, "main_cast": ["James Stewart", "Kim Novac"], "notes": "Ultimate Voyeurism"}
+                    ],
+                    "top_underrated_film": "North By NorthWest"
+                },
+                {
+                    "id": 1,
+                    "name":"Orson Welles",
+                    "birth": {
+                        "year": 1915,"month": 3,"day": 1
+                        },
+                    "top_three_films":[
+                        {"title": "Citizen Kane", "year": 1939, "main_cast": ["James Stewart", "Grace Kelly"], "notes": "Voyeurism"},
+                        {"title": "Touch of Evil", "year": 1958, "main_cast": ["Anthony Perkins", "Janet Leigh"], "notes": "Shower Scene"},
+                        {"title": "The Magnificent Ambersons", "year": 1942, "main_cast": ["James Stewart", "Kim Novac"], "notes": "Ultimate Voyeurism"}
+                    ],
+                    "top_underrated_film": "The Lady from Shanghai"
+                },
+                {
+                    "id": 2,
+                    "name":"John Ford",
+                    "birth": {
+                        "year": 1895,"month": 2,"day": 1
+                        },
+                    "top_three_films":[
+                        {"title": "How Green Was My Valley", "year": 1941, "main_cast": ["James Stewart", "Grace Kelly"], "notes": "Voyeurism"},
+                        {"title": "The Grapes of Wrath", "year": 1940, "main_cast": ["Anthony Perkins", "Janet Leigh"], "notes": "Shower Scene"},
+                        {"title": "The Searchers", "year": 1956, "main_cast": ["James Stewart", "Kim Novac"], "notes": "Ultimate Voyeurism"}
+                    ],
+                    "top_underrated_film": "Stagecoach"
+                },
+                {
+                    "id": 3,
+                    "name":"Howard Hawks",
+                    "birth": {
+                        "year": 1895,"month": 2,"day": 1
+                        },
+                    "top_three_films":[
+                        {"title": "How Green Was My Valley", "year": 1941, "main_cast": ["James Stewart", "Grace Kelly"], "notes": "Voyeurism"},
+                        {"title": "The Grapes of Wrath", "year": 1940, "main_cast": ["Anthony Perkins", "Janet Leigh"], "notes": "Shower Scene"},
+                        {"title": "The Searchers", "year": 1956, "main_cast": ["James Stewart", "Kim Novac"], "notes": "Ultimate Voyeurism"}
+                    ],
+                    "top_underrated_film": "Stagecoach"
+                },
+                {
+                    "id": 4,
+                    "name":"Martin Scorsese",
+                    "birth": {
+                        "year": 1895,"month": 2,"day": 1
+                        },
+                    "top_three_films":[
+                        {"title": "How Green Was My Valley", "year": 1941, "main_cast": ["James Stewart", "Grace Kelly"], "notes": "Voyeurism"},
+                        {"title": "The Grapes of Wrath", "year": 1940, "main_cast": ["Anthony Perkins", "Janet Leigh"], "notes": "Shower Scene"},
+                        {"title": "The Searchers", "year": 1956, "main_cast": ["James Stewart", "Kim Novac"], "notes": "Ultimate Voyeurism"}
+                    ],
+                    "top_underrated_film": "Stagecoach"
+                },
+                {
+                    "id": 5,
+                    "name":"Akira Kurosawa",
+                    "birth": {
+                        "year": 1895,"month": 2,"day": 1
+                        },
+                    "top_three_films":[
+                        {"title": "How Green Was My Valley", "year": 1941, "main_cast": ["James Stewart", "Grace Kelly"], "notes": "Voyeurism"},
+                        {"title": "The Grapes of Wrath", "year": 1940, "main_cast": ["Anthony Perkins", "Janet Leigh"], "notes": "Shower Scene"},
+                        {"title": "The Searchers", "year": 1956, "main_cast": ["James Stewart", "Kim Novac"], "notes": "Ultimate Voyeurism"}
+                    ],
+                    "top_underrated_film": "Stagecoach"
+                },
+                {
+                    "id": 6,
+                    "name":"Buster Keaton",
+                    "birth": {
+                        "year": 1895,"month": 10,"day": 4
+                        },
+                    "top_three_films":[
+                        {"title": "The General", "year": 1926, "main_cast": ["James Stewart", "Grace Kelly"], "notes": "Voyeurism"},
+                        {"title": "Sherlock Jr.", "year": 1924, "main_cast": ["Anthony Perkins", "Janet Leigh"], "notes": "Shower Scene"},
+                        {"title": "Steamboat Bill Jr.", "year": 1926, "main_cast": ["James Stewart", "Kim Novac"], "notes": "Ultimate Voyeurism"}
+                    ],
+                    "top_underrated_film": "Stagecoach"
+                },
+                {
+                    "id": 7,
+                    "name":"Ingmar Bergman",
+                    "birth": {
+                        "year": 1918,"month": 7,"day": 14
+                        },
+                    "top_three_films":[
+                        {"title": "The Seventh Seal", "year": 1957, "main_cast": ["James Stewart", "Grace Kelly"], "notes": "Voyeurism"},
+                        {"title": "Persona", "year": 1966, "main_cast": ["Anthony Perkins", "Janet Leigh"], "notes": "Shower Scene"},
+                        {"title": "Fanny and Alexander", "year": 1982, "main_cast": ["James Stewart", "Kim Novac"], "notes": "Ultimate Voyeurism"}
+                    ],
+                    "top_underrated_film": "Stagecoach"
+                },
+                {
+                    "id": 8,
+                    "name":"Frank Capra",
+                    "birth": {
+                        "year": 1897,"month": 3,"day": 18
+                        },
+                    "top_three_films":[
+                        {"title": "How Green Was My Valley", "year": 1941, "main_cast": ["James Stewart", "Grace Kelly"], "notes": "Voyeurism"},
+                        {"title": "The Grapes of Wrath", "year": 1940, "main_cast": ["Anthony Perkins", "Janet Leigh"], "notes": "Shower Scene"},
+                        {"title": "The Searchers", "year": 1956, "main_cast": ["James Stewart", "Kim Novac"], "notes": "Ultimate Voyeurism"}
+                    ],
+                    "top_underrated_film": "Stagecoach"
+                },
+                {
+                    "id": 9,
+                    "name":"Federico Fellini",
+                    "birth": {
+                        "year": 1920,"month": 1,"day": 20
+                        },
+                    "top_three_films":[
+                        {"title": "How Green Was My Valley", "year": 1941, "main_cast": ["James Stewart", "Grace Kelly"], "notes": "Voyeurism"},
+                        {"title": "The Grapes of Wrath", "year": 1940, "main_cast": ["Anthony Perkins", "Janet Leigh"], "notes": "Shower Scene"},
+                        {"title": "The Searchers", "year": 1956, "main_cast": ["James Stewart", "Kim Novac"], "notes": "Ultimate Voyeurism"}
+                    ],
+                    "top_underrated_film": "Stagecoach"
+                }
+
+
+
+
+
+
+            ],
+
+"actors":   [  
+                {
+
+                }
+
+
+
+
+            ]
+}

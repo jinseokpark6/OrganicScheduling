@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7422843C1C35077D00344188 /* VRScheduleViewTopBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7422843B1C35077D00344188 /* VRScheduleViewTopBorder.swift */; };
+		7422843E1C35088B00344188 /* CollectionViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7422843D1C35088B00344188 /* CollectionViewLayoutAttributes.swift */; };
+		742284401C350A8300344188 /* CollectionViewSectionDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7422843F1C350A8300344188 /* CollectionViewSectionDescription.swift */; };
+		742B4A211C3CC527008BF44E /* VRScheduleCellAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742B4A201C3CC527008BF44E /* VRScheduleCellAttributes.swift */; };
+		742B4A241C3CC82B008BF44E /* Users.json in Resources */ = {isa = PBXBuildFile; fileRef = 742B4A231C3CC82B008BF44E /* Users.json */; };
+		7451E92D1C3C855A009439EB /* VRDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451E92C1C3C855A009439EB /* VRDataManager.swift */; };
+		7466F0EE1C3839D300157A86 /* VRScheduleViewRightBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466F0ED1C3839D300157A86 /* VRScheduleViewRightBorder.swift */; };
+		7476F3CA1C30E5DA00DD7625 /* VRScheduleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7476F3C91C30E5DA00DD7625 /* VRScheduleDetailViewController.swift */; };
+		7476F3CC1C30EB3600DD7625 /* DetailViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7476F3CB1C30EB3600DD7625 /* DetailViewLayout.swift */; };
+		7476F3CE1C30F0BC00DD7625 /* DetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7476F3CD1C30F0BC00DD7625 /* DetailViewCell.swift */; };
+		7476F3D01C30F76100DD7625 /* DetailViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7476F3CF1C30F76100DD7625 /* DetailViewHeader.swift */; };
+		747F12F71C48E85400CF1BBA /* VRScheduleViewLeftBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747F12F61C48E85400CF1BBA /* VRScheduleViewLeftBorder.swift */; };
+		747F12F91C48ED0100CF1BBA /* VREventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747F12F81C48ED0100CF1BBA /* VREventModel.swift */; };
+		7481951D1C4B0480004373A4 /* VRUserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7481951C1C4B0480004373A4 /* VRUserDetailView.swift */; };
+		748C6FD71C3D2BD2007F037E /* VRWeekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748C6FD61C3D2BD2007F037E /* VRWeekday.swift */; };
+		748C6FD91C3EE5D9007F037E /* Schedule.json in Resources */ = {isa = PBXBuildFile; fileRef = 748C6FD81C3EE5D9007F037E /* Schedule.json */; };
+		748C6FDB1C3F623E007F037E /* VRCalendarEventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748C6FDA1C3F623E007F037E /* VRCalendarEventController.swift */; };
+		748C6FDD1C462A3D007F037E /* VRScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748C6FDC1C462A3D007F037E /* VRScheduleView.swift */; };
+		748C6FE11C462B40007F037E /* VRScheduleViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748C6FE01C462B40007F037E /* VRScheduleViewDelegate.swift */; };
+		748C6FE31C462C29007F037E /* VRScheduleViewPresentationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748C6FE21C462C29007F037E /* VRScheduleViewPresentationMode.swift */; };
+		748C6FE51C462D32007F037E /* VRMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748C6FE41C462D32007F037E /* VRMainViewController.swift */; };
+		748C6FE71C462E7E007F037E /* VRScheduleViewAppearanceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748C6FE61C462E7E007F037E /* VRScheduleViewAppearanceDelegate.swift */; };
+		748C6FE91C46F924007F037E /* VRScheduleCellBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748C6FE81C46F924007F037E /* VRScheduleCellBorder.swift */; };
+		74A6A7E41C29F369008235B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6A7E31C29F369008235B3 /* AppDelegate.swift */; };
+		74A6A7E61C29F369008235B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6A7E51C29F369008235B3 /* ViewController.swift */; };
+		74A6A7E91C29F369008235B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A6A7E71C29F369008235B3 /* Main.storyboard */; };
+		74A6A7EB1C29F369008235B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A6A7EA1C29F369008235B3 /* Assets.xcassets */; };
+		74A6A7EE1C29F369008235B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A6A7EC1C29F369008235B3 /* LaunchScreen.storyboard */; };
+		74A6A7F91C29F369008235B3 /* OrganicSchedulingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6A7F81C29F369008235B3 /* OrganicSchedulingTests.swift */; };
+		74A6A8041C29F369008235B3 /* OrganicSchedulingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6A8031C29F369008235B3 /* OrganicSchedulingUITests.swift */; };
+		74A6A8141C2A56B0008235B3 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6A8131C2A56B0008235B3 /* UIViewExtensions.swift */; };
+		74A6A8161C2BD3C9008235B3 /* VRScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6A8151C2BD3C9008235B3 /* VRScheduleViewController.swift */; };
+		74A6A8181C2BD54E008235B3 /* VRCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6A8171C2BD54E008235B3 /* VRCalendarView.swift */; };
+		74A6A81C1C2BD695008235B3 /* VRCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6A81B1C2BD695008235B3 /* VRCalendarManager.swift */; };
+		74A6A81E1C2BD6B1008235B3 /* VRCalendarViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6A81D1C2BD6B1008235B3 /* VRCalendarViewAppearance.swift */; };
+		74A6A8201C2BD854008235B3 /* VRCalendarContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6A81F1C2BD854008235B3 /* VRCalendarContentViewController.swift */; };
+		74A6A8221C2BE25B008235B3 /* VRCalendarViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6A8211C2BE25B008235B3 /* VRCalendarViewDelegate.swift */; };
+		74A6A8241C2BE595008235B3 /* VRCalendarViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6A8231C2BE595008235B3 /* VRCalendarViewAnimator.swift */; };
+		74A6A8261C2C52AD008235B3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6A8251C2C52AD008235B3 /* CollectionViewCell.swift */; };
+		74A6A8281C2C61AC008235B3 /* VRScheduleViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6A8271C2C61AC008235B3 /* VRScheduleViewLayout.swift */; };
+		74B1EB351C34BB5700AEC142 /* VRNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1EB341C34BB5700AEC142 /* VRNode.swift */; };
+		74B1EB3A1C34EF1200AEC142 /* VRCalendarDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1EB391C34EF1200AEC142 /* VRCalendarDataController.swift */; };
+		74DB70E21C3B15D800F4DE6D /* VRScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DB70E11C3B15D800F4DE6D /* VRScheduleModel.swift */; };
+		74DB70E41C3B620700F4DE6D /* VRUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DB70E31C3B620700F4DE6D /* VRUserModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74A6A7F51C29F369008235B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74A6A7D81C29F369008235B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74A6A7DF1C29F369008235B3;
+			remoteInfo = OrganicScheduling;
+		};
+		74A6A8001C29F369008235B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74A6A7D81C29F369008235B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74A6A7DF1C29F369008235B3;
+			remoteInfo = OrganicScheduling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7422843B1C35077D00344188 /* VRScheduleViewTopBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRScheduleViewTopBorder.swift; sourceTree = "<group>"; };
+		7422843D1C35088B00344188 /* CollectionViewLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewLayoutAttributes.swift; sourceTree = "<group>"; };
+		7422843F1C350A8300344188 /* CollectionViewSectionDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewSectionDescription.swift; sourceTree = "<group>"; };
+		742B4A201C3CC527008BF44E /* VRScheduleCellAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRScheduleCellAttributes.swift; sourceTree = "<group>"; };
+		742B4A231C3CC82B008BF44E /* Users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Users.json; sourceTree = "<group>"; };
+		7451E92C1C3C855A009439EB /* VRDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRDataManager.swift; sourceTree = "<group>"; };
+		7466F0ED1C3839D300157A86 /* VRScheduleViewRightBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRScheduleViewRightBorder.swift; sourceTree = "<group>"; };
+		7476F3C91C30E5DA00DD7625 /* VRScheduleDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRScheduleDetailViewController.swift; sourceTree = "<group>"; };
+		7476F3CB1C30EB3600DD7625 /* DetailViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewLayout.swift; sourceTree = "<group>"; };
+		7476F3CD1C30F0BC00DD7625 /* DetailViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewCell.swift; sourceTree = "<group>"; };
+		7476F3CF1C30F76100DD7625 /* DetailViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewHeader.swift; sourceTree = "<group>"; };
+		747F12F61C48E85400CF1BBA /* VRScheduleViewLeftBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRScheduleViewLeftBorder.swift; sourceTree = "<group>"; };
+		747F12F81C48ED0100CF1BBA /* VREventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VREventModel.swift; path = ../VREventModel.swift; sourceTree = "<group>"; };
+		7481951C1C4B0480004373A4 /* VRUserDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRUserDetailView.swift; path = OrganicScheduling/VRUserDetailView.swift; sourceTree = "<group>"; };
+		748C6FD61C3D2BD2007F037E /* VRWeekday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRWeekday.swift; sourceTree = "<group>"; };
+		748C6FD81C3EE5D9007F037E /* Schedule.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Schedule.json; sourceTree = "<group>"; };
+		748C6FDA1C3F623E007F037E /* VRCalendarEventController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRCalendarEventController.swift; path = OrganicScheduling/VRCalendarEventController.swift; sourceTree = "<group>"; };
+		748C6FDC1C462A3D007F037E /* VRScheduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRScheduleView.swift; sourceTree = "<group>"; };
+		748C6FE01C462B40007F037E /* VRScheduleViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRScheduleViewDelegate.swift; sourceTree = "<group>"; };
+		748C6FE21C462C29007F037E /* VRScheduleViewPresentationMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRScheduleViewPresentationMode.swift; sourceTree = "<group>"; };
+		748C6FE41C462D32007F037E /* VRMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRMainViewController.swift; path = OrganicScheduling/VRMainViewController.swift; sourceTree = "<group>"; };
+		748C6FE61C462E7E007F037E /* VRScheduleViewAppearanceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRScheduleViewAppearanceDelegate.swift; sourceTree = "<group>"; };
+		748C6FE81C46F924007F037E /* VRScheduleCellBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRScheduleCellBorder.swift; sourceTree = "<group>"; };
+		74A6A7E01C29F369008235B3 /* OrganicScheduling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrganicScheduling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A6A7E31C29F369008235B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74A6A7E51C29F369008235B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74A6A7E81C29F369008235B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74A6A7EA1C29F369008235B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74A6A7ED1C29F369008235B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74A6A7EF1C29F369008235B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A6A7F41C29F369008235B3 /* OrganicSchedulingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrganicSchedulingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A6A7F81C29F369008235B3 /* OrganicSchedulingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganicSchedulingTests.swift; sourceTree = "<group>"; };
+		74A6A7FA1C29F369008235B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A6A7FF1C29F369008235B3 /* OrganicSchedulingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrganicSchedulingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A6A8031C29F369008235B3 /* OrganicSchedulingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganicSchedulingUITests.swift; sourceTree = "<group>"; };
+		74A6A8051C29F369008235B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A6A8131C2A56B0008235B3 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		74A6A8151C2BD3C9008235B3 /* VRScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRScheduleViewController.swift; path = OrganicScheduling/VRScheduleViewController.swift; sourceTree = "<group>"; };
+		74A6A8171C2BD54E008235B3 /* VRCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRCalendarView.swift; sourceTree = "<group>"; };
+		74A6A81B1C2BD695008235B3 /* VRCalendarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRCalendarManager.swift; sourceTree = "<group>"; };
+		74A6A81D1C2BD6B1008235B3 /* VRCalendarViewAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRCalendarViewAppearance.swift; sourceTree = "<group>"; };
+		74A6A81F1C2BD854008235B3 /* VRCalendarContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRCalendarContentViewController.swift; path = ../VRCalendarContentViewController.swift; sourceTree = "<group>"; };
+		74A6A8211C2BE25B008235B3 /* VRCalendarViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRCalendarViewDelegate.swift; sourceTree = "<group>"; };
+		74A6A8231C2BE595008235B3 /* VRCalendarViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRCalendarViewAnimator.swift; sourceTree = "<group>"; };
+		74A6A8251C2C52AD008235B3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		74A6A8271C2C61AC008235B3 /* VRScheduleViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRScheduleViewLayout.swift; sourceTree = "<group>"; };
+		74B1EB341C34BB5700AEC142 /* VRNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRNode.swift; sourceTree = "<group>"; };
+		74B1EB391C34EF1200AEC142 /* VRCalendarDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRCalendarDataController.swift; sourceTree = "<group>"; };
+		74DB70E11C3B15D800F4DE6D /* VRScheduleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRScheduleModel.swift; sourceTree = "<group>"; };
+		74DB70E31C3B620700F4DE6D /* VRUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRUserModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74A6A7DD1C29F369008235B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A6A7F11C29F369008235B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A6A7FC1C29F369008235B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		742B4A1D1C3CC265008BF44E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				742B4A201C3CC527008BF44E /* VRScheduleCellAttributes.swift */,
+				748C6FE81C46F924007F037E /* VRScheduleCellBorder.swift */,
+				748C6FD61C3D2BD2007F037E /* VRWeekday.swift */,
+				748C6FE21C462C29007F037E /* VRScheduleViewPresentationMode.swift */,
+			);
+			name = Enums;
+			sourceTree = "<group>";
+		};
+		7481951B1C4B02AB004373A4 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				74A6A81B1C2BD695008235B3 /* VRCalendarManager.swift */,
+				74B1EB391C34EF1200AEC142 /* VRCalendarDataController.swift */,
+				74B1EB341C34BB5700AEC142 /* VRNode.swift */,
+				74A6A81D1C2BD6B1008235B3 /* VRCalendarViewAppearance.swift */,
+				74A6A8171C2BD54E008235B3 /* VRCalendarView.swift */,
+				74A6A8231C2BE595008235B3 /* VRCalendarViewAnimator.swift */,
+				74A6A8211C2BE25B008235B3 /* VRCalendarViewDelegate.swift */,
+				74A6A81F1C2BD854008235B3 /* VRCalendarContentViewController.swift */,
+				74A6A8131C2A56B0008235B3 /* UIViewExtensions.swift */,
+				74A6A7E51C29F369008235B3 /* ViewController.swift */,
+				74A6A7E71C29F369008235B3 /* Main.storyboard */,
+				7422843D1C35088B00344188 /* CollectionViewLayoutAttributes.swift */,
+				7422843F1C350A8300344188 /* CollectionViewSectionDescription.swift */,
+			);
+			name = Extras;
+			sourceTree = "<group>";
+		};
+		748C6FDE1C462A45007F037E /* Content Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7481951C1C4B0480004373A4 /* VRUserDetailView.swift */,
+				748C6FE41C462D32007F037E /* VRMainViewController.swift */,
+				74A6A8151C2BD3C9008235B3 /* VRScheduleViewController.swift */,
+				7476F3C91C30E5DA00DD7625 /* VRScheduleDetailViewController.swift */,
+				748C6FDA1C3F623E007F037E /* VRCalendarEventController.swift */,
+			);
+			name = "Content Controllers";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		748C6FDF1C462B1A007F037E /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				748C6FE01C462B40007F037E /* VRScheduleViewDelegate.swift */,
+				748C6FE61C462E7E007F037E /* VRScheduleViewAppearanceDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		74A6A7D71C29F369008235B3 = {
+			isa = PBXGroup;
+			children = (
+				74A6A7E21C29F369008235B3 /* OrganicScheduling */,
+				74A6A7F71C29F369008235B3 /* OrganicSchedulingTests */,
+				74A6A8021C29F369008235B3 /* OrganicSchedulingUITests */,
+				74A6A7E11C29F369008235B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74A6A7E11C29F369008235B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74A6A7E01C29F369008235B3 /* OrganicScheduling.app */,
+				74A6A7F41C29F369008235B3 /* OrganicSchedulingTests.xctest */,
+				74A6A7FF1C29F369008235B3 /* OrganicSchedulingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74A6A7E21C29F369008235B3 /* OrganicScheduling */ = {
+			isa = PBXGroup;
+			children = (
+				74A6A7E31C29F369008235B3 /* AppDelegate.swift */,
+				74B1EB361C34EEAD00AEC142 /* Models */,
+				74B1EB371C34EEBE00AEC142 /* Main Views */,
+				748C6FDE1C462A45007F037E /* Content Controllers */,
+				74DB70E01C3B136200F4DE6D /* ViewLayouts */,
+				74DB70DE1C3B133500F4DE6D /* ReusableViews */,
+				74DB70DD1C3B131C00F4DE6D /* Cell Views */,
+				742B4A1D1C3CC265008BF44E /* Enums */,
+				748C6FDF1C462B1A007F037E /* Delegates */,
+				7481951B1C4B02AB004373A4 /* Extras */,
+				74A6A7EA1C29F369008235B3 /* Assets.xcassets */,
+				74A6A7EC1C29F369008235B3 /* LaunchScreen.storyboard */,
+				74A6A7EF1C29F369008235B3 /* Info.plist */,
+			);
+			path = OrganicScheduling;
+			sourceTree = "<group>";
+		};
+		74A6A7F71C29F369008235B3 /* OrganicSchedulingTests */ = {
+			isa = PBXGroup;
+			children = (
+				74A6A7F81C29F369008235B3 /* OrganicSchedulingTests.swift */,
+				74A6A7FA1C29F369008235B3 /* Info.plist */,
+			);
+			path = OrganicSchedulingTests;
+			sourceTree = "<group>";
+		};
+		74A6A8021C29F369008235B3 /* OrganicSchedulingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74A6A8031C29F369008235B3 /* OrganicSchedulingUITests.swift */,
+				74A6A8051C29F369008235B3 /* Info.plist */,
+			);
+			path = OrganicSchedulingUITests;
+			sourceTree = "<group>";
+		};
+		74B1EB361C34EEAD00AEC142 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74DB70E11C3B15D800F4DE6D /* VRScheduleModel.swift */,
+				74DB70E31C3B620700F4DE6D /* VRUserModel.swift */,
+				747F12F81C48ED0100CF1BBA /* VREventModel.swift */,
+				7451E92C1C3C855A009439EB /* VRDataManager.swift */,
+				748C6FD81C3EE5D9007F037E /* Schedule.json */,
+				742B4A231C3CC82B008BF44E /* Users.json */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		74B1EB371C34EEBE00AEC142 /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				748C6FDC1C462A3D007F037E /* VRScheduleView.swift */,
+			);
+			name = "Main Views";
+			sourceTree = "<group>";
+		};
+		74DB70DD1C3B131C00F4DE6D /* Cell Views */ = {
+			isa = PBXGroup;
+			children = (
+				74A6A8251C2C52AD008235B3 /* CollectionViewCell.swift */,
+				7476F3CD1C30F0BC00DD7625 /* DetailViewCell.swift */,
+			);
+			name = "Cell Views";
+			sourceTree = "<group>";
+		};
+		74DB70DE1C3B133500F4DE6D /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				7466F0ED1C3839D300157A86 /* VRScheduleViewRightBorder.swift */,
+				747F12F61C48E85400CF1BBA /* VRScheduleViewLeftBorder.swift */,
+				7422843B1C35077D00344188 /* VRScheduleViewTopBorder.swift */,
+				7476F3CF1C30F76100DD7625 /* DetailViewHeader.swift */,
+			);
+			name = ReusableViews;
+			sourceTree = "<group>";
+		};
+		74DB70E01C3B136200F4DE6D /* ViewLayouts */ = {
+			isa = PBXGroup;
+			children = (
+				74A6A8271C2C61AC008235B3 /* VRScheduleViewLayout.swift */,
+				7476F3CB1C30EB3600DD7625 /* DetailViewLayout.swift */,
+			);
+			name = ViewLayouts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74A6A7DF1C29F369008235B3 /* OrganicScheduling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74A6A8081C29F369008235B3 /* Build configuration list for PBXNativeTarget "OrganicScheduling" */;
+			buildPhases = (
+				74A6A7DC1C29F369008235B3 /* Sources */,
+				74A6A7DD1C29F369008235B3 /* Frameworks */,
+				74A6A7DE1C29F369008235B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrganicScheduling;
+			productName = OrganicScheduling;
+			productReference = 74A6A7E01C29F369008235B3 /* OrganicScheduling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74A6A7F31C29F369008235B3 /* OrganicSchedulingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74A6A80B1C29F369008235B3 /* Build configuration list for PBXNativeTarget "OrganicSchedulingTests" */;
+			buildPhases = (
+				74A6A7F01C29F369008235B3 /* Sources */,
+				74A6A7F11C29F369008235B3 /* Frameworks */,
+				74A6A7F21C29F369008235B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74A6A7F61C29F369008235B3 /* PBXTargetDependency */,
+			);
+			name = OrganicSchedulingTests;
+			productName = OrganicSchedulingTests;
+			productReference = 74A6A7F41C29F369008235B3 /* OrganicSchedulingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74A6A7FE1C29F369008235B3 /* OrganicSchedulingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74A6A80E1C29F369008235B3 /* Build configuration list for PBXNativeTarget "OrganicSchedulingUITests" */;
+			buildPhases = (
+				74A6A7FB1C29F369008235B3 /* Sources */,
+				74A6A7FC1C29F369008235B3 /* Frameworks */,
+				74A6A7FD1C29F369008235B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74A6A8011C29F369008235B3 /* PBXTargetDependency */,
+			);
+			name = OrganicSchedulingUITests;
+			productName = OrganicSchedulingUITests;
+			productReference = 74A6A7FF1C29F369008235B3 /* OrganicSchedulingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74A6A7D81C29F369008235B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = jinseokpark;
+				TargetAttributes = {
+					74A6A7DF1C29F369008235B3 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					74A6A7F31C29F369008235B3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 74A6A7DF1C29F369008235B3;
+					};
+					74A6A7FE1C29F369008235B3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 74A6A7DF1C29F369008235B3;
+					};
+				};
+			};
+			buildConfigurationList = 74A6A7DB1C29F369008235B3 /* Build configuration list for PBXProject "OrganicScheduling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74A6A7D71C29F369008235B3;
+			productRefGroup = 74A6A7E11C29F369008235B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74A6A7DF1C29F369008235B3 /* OrganicScheduling */,
+				74A6A7F31C29F369008235B3 /* OrganicSchedulingTests */,
+				74A6A7FE1C29F369008235B3 /* OrganicSchedulingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74A6A7DE1C29F369008235B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748C6FD91C3EE5D9007F037E /* Schedule.json in Resources */,
+				742B4A241C3CC82B008BF44E /* Users.json in Resources */,
+				74A6A7EE1C29F369008235B3 /* LaunchScreen.storyboard in Resources */,
+				74A6A7EB1C29F369008235B3 /* Assets.xcassets in Resources */,
+				74A6A7E91C29F369008235B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A6A7F21C29F369008235B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A6A7FD1C29F369008235B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74A6A7DC1C29F369008235B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A6A7E61C29F369008235B3 /* ViewController.swift in Sources */,
+				7466F0EE1C3839D300157A86 /* VRScheduleViewRightBorder.swift in Sources */,
+				7422843C1C35077D00344188 /* VRScheduleViewTopBorder.swift in Sources */,
+				748C6FDD1C462A3D007F037E /* VRScheduleView.swift in Sources */,
+				748C6FE11C462B40007F037E /* VRScheduleViewDelegate.swift in Sources */,
+				7476F3CC1C30EB3600DD7625 /* DetailViewLayout.swift in Sources */,
+				74A6A7E41C29F369008235B3 /* AppDelegate.swift in Sources */,
+				74A6A8261C2C52AD008235B3 /* CollectionViewCell.swift in Sources */,
+				74A6A8141C2A56B0008235B3 /* UIViewExtensions.swift in Sources */,
+				747F12F71C48E85400CF1BBA /* VRScheduleViewLeftBorder.swift in Sources */,
+				748C6FE91C46F924007F037E /* VRScheduleCellBorder.swift in Sources */,
+				74B1EB351C34BB5700AEC142 /* VRNode.swift in Sources */,
+				7451E92D1C3C855A009439EB /* VRDataManager.swift in Sources */,
+				748C6FD71C3D2BD2007F037E /* VRWeekday.swift in Sources */,
+				74A6A8181C2BD54E008235B3 /* VRCalendarView.swift in Sources */,
+				742B4A211C3CC527008BF44E /* VRScheduleCellAttributes.swift in Sources */,
+				74A6A8221C2BE25B008235B3 /* VRCalendarViewDelegate.swift in Sources */,
+				7476F3D01C30F76100DD7625 /* DetailViewHeader.swift in Sources */,
+				74B1EB3A1C34EF1200AEC142 /* VRCalendarDataController.swift in Sources */,
+				748C6FE71C462E7E007F037E /* VRScheduleViewAppearanceDelegate.swift in Sources */,
+				74DB70E21C3B15D800F4DE6D /* VRScheduleModel.swift in Sources */,
+				74A6A8241C2BE595008235B3 /* VRCalendarViewAnimator.swift in Sources */,
+				748C6FE51C462D32007F037E /* VRMainViewController.swift in Sources */,
+				74A6A8201C2BD854008235B3 /* VRCalendarContentViewController.swift in Sources */,
+				74A6A81E1C2BD6B1008235B3 /* VRCalendarViewAppearance.swift in Sources */,
+				7481951D1C4B0480004373A4 /* VRUserDetailView.swift in Sources */,
+				74A6A8161C2BD3C9008235B3 /* VRScheduleViewController.swift in Sources */,
+				74A6A8281C2C61AC008235B3 /* VRScheduleViewLayout.swift in Sources */,
+				7476F3CE1C30F0BC00DD7625 /* DetailViewCell.swift in Sources */,
+				74A6A81C1C2BD695008235B3 /* VRCalendarManager.swift in Sources */,
+				742284401C350A8300344188 /* CollectionViewSectionDescription.swift in Sources */,
+				74DB70E41C3B620700F4DE6D /* VRUserModel.swift in Sources */,
+				7476F3CA1C30E5DA00DD7625 /* VRScheduleDetailViewController.swift in Sources */,
+				748C6FDB1C3F623E007F037E /* VRCalendarEventController.swift in Sources */,
+				747F12F91C48ED0100CF1BBA /* VREventModel.swift in Sources */,
+				7422843E1C35088B00344188 /* CollectionViewLayoutAttributes.swift in Sources */,
+				748C6FE31C462C29007F037E /* VRScheduleViewPresentationMode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A6A7F01C29F369008235B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A6A7F91C29F369008235B3 /* OrganicSchedulingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A6A7FB1C29F369008235B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A6A8041C29F369008235B3 /* OrganicSchedulingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74A6A7F61C29F369008235B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74A6A7DF1C29F369008235B3 /* OrganicScheduling */;
+			targetProxy = 74A6A7F51C29F369008235B3 /* PBXContainerItemProxy */;
+		};
+		74A6A8011C29F369008235B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74A6A7DF1C29F369008235B3 /* OrganicScheduling */;
+			targetProxy = 74A6A8001C29F369008235B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74A6A7E71C29F369008235B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74A6A7E81C29F369008235B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74A6A7EC1C29F369008235B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74A6A7ED1C29F369008235B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74A6A8061C29F369008235B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74A6A8071C29F369008235B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74A6A8091C29F369008235B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OrganicScheduling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinseokpark.OrganicScheduling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74A6A80A1C29F369008235B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OrganicScheduling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinseokpark.OrganicScheduling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Release;
+		};
+		74A6A80C1C29F369008235B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OrganicSchedulingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinseokpark.OrganicSchedulingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrganicScheduling.app/OrganicScheduling";
+			};
+			name = Debug;
+		};
+		74A6A80D1C29F369008235B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OrganicSchedulingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinseokpark.OrganicSchedulingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrganicScheduling.app/OrganicScheduling";
+			};
+			name = Release;
+		};
+		74A6A80F1C29F369008235B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OrganicSchedulingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinseokpark.OrganicSchedulingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OrganicScheduling;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		74A6A8101C29F369008235B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OrganicSchedulingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinseokpark.OrganicSchedulingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OrganicScheduling;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74A6A7DB1C29F369008235B3 /* Build configuration list for PBXProject "OrganicScheduling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A6A8061C29F369008235B3 /* Debug */,
+				74A6A8071C29F369008235B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74A6A8081C29F369008235B3 /* Build configuration list for PBXNativeTarget "OrganicScheduling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A6A8091C29F369008235B3 /* Debug */,
+				74A6A80A1C29F369008235B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74A6A80B1C29F369008235B3 /* Build configuration list for PBXNativeTarget "OrganicSchedulingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A6A80C1C29F369008235B3 /* Debug */,
+				74A6A80D1C29F369008235B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74A6A80E1C29F369008235B3 /* Build configuration list for PBXNativeTarget "OrganicSchedulingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A6A80F1C29F369008235B3 /* Debug */,
+				74A6A8101C29F369008235B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74A6A7D81C29F369008235B3 /* Project object */;
+}
